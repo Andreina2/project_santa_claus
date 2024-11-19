@@ -38,21 +38,23 @@ Por cada historia de usuario se deberán redactar los criterios de aceptación.
 # Ejemplo de interacción con la consola
 
 Casos de uso para Elfos:
+
 Iniciar sesión de trabajo como:
-1. Elfo
-2. Santa Claus
+
+1.Elfo
+2.Santa Claus
 Seleccione una opción: 1
 -----------
 Gestor de juguetes (Tipo de sesión: Elfo)
-1. Añadir juguete
-2. Ver todos los juguetes
-3. Eliminar juguete
-4. Cerrar sesión
+1.Añadir juguete
+2.Ver todos los juguetes
+3.Eliminar juguete
+4.Cerrar sesión
 Seleccione una opción: 1
 -----------
 Para niño ...:
-1. Bueno
-2. Malo
+1.Bueno
+2.Malo
 Seleccione una opción: 1
 
 Ingrese el título: LEGO Star Wars - Halcón Milenario - 75375
@@ -62,15 +64,15 @@ Ingrese la categoria: Juguetes de Construcción
 Juguete añadido con éxito
 -----------
 Gestor de juguetes (Tipo de sesión: Elfo)
-1. Añadir juguete
-2. Ver todos los juguetes
-3. Eliminar juguete
-4. Cerrar sesión
+1.Añadir juguete
+2.Ver todos los juguetes
+3.Eliminar juguete
+4.Cerrar sesión
 Seleccione una opción: 1
 -----------
 Para niño ...:
-1. Bueno
-2. Malo
+1.Bueno
+2.Malo
 Seleccione una opción: 2
 
 Ingrese el título: Mystery Box 5x5
@@ -78,31 +80,33 @@ Ingrese la contenido: Carbón
 Juguete añadido con éxito
 -----------
 Gestor de juguetes (Tipo de sesión: Elfo)
-1. Añadir juguete
-2. Ver todos los juguetes
-3. Eliminar juguete
-4. Cerrar sesión
+1.Añadir juguete
+2.Ver todos los juguetes
+3.Eliminar juguete
+4.Cerrar sesión
 Seleccione una opción: 2
 
 Lista de juguetes:
+
 B1. Título: LEGO Star Wars - Halcón Milenario - 75375, Marca: LEGO, Edad Recomendada: +18, Categoria: Juguetes de Construcción
+
 M1. Título: Mystery Box 5x5, Contenido: Carbón
 -----------
 Gestor de juguetes (Tipo de sesión: Elfo)
-1. Añadir juguete
-2. Ver todos los juguetes
-3. Eliminar juguete
-4. Cerrar sesión
+1.Añadir juguete
+2.Ver todos los juguetes
+3.Eliminar juguete
+4.Cerrar sesión
 Seleccione una opción: 3
 
 Ingrese el identificador del juguete a eliminar: B1
 Juguete eliminado con éxito
 -----------
 Gestor de juguetes (Tipo de sesión: Elfo)
-1. Añadir juguete
-2. Ver todos los juguetes
-3. Eliminar juguete
-4. Cerrar sesión
+1.Añadir juguete
+2.Ver todos los juguetes
+3.Eliminar juguete
+4.Cerrar sesión
 Seleccione una opción: 4
 
 Sesión cerrada correctamente.
@@ -110,15 +114,15 @@ Sesión cerrada correctamente.
 Casos de uso para Santa Claus:
 
 Iniciar sesión de trabajo como:
-1. Elfo
-2. Santa Claus
+1.Elfo
+2.Santa Claus
 Seleccione una opción: 2
 -----------
 Gestor de juguetes (Tipo de sesión: Santa)
-1. Ver lista de juguetes niños buenos
-2. Ver lista de juguetes niños malos
-3. Guargar lista de todos los juguetes (.csv)
-4. Cerrar sesión
+1.Ver lista de juguetes niños buenos
+2.Ver lista de juguetes niños malos
+3.Guargar lista de todos los juguetes (.csv)
+4.Cerrar sesión
 Seleccione una opción: 1
 
 B1. Título: LEGO Star Wars - Halcón Milenario - 75375, Marca: LEGO, Edad Recomendada: +18, Categoria: Juguetes de Construcción
@@ -126,19 +130,19 @@ B2. Título: LEGO City - Exploradores del Ártico: Barco - 60368
 , Marca: LEGO, Edad Recomendada: 5-7, Categoria: Juguetes de Construcción
 -----------
 Gestor de juguetes (Tipo de sesión: Santa)
-1. Ver lista de juguetes niños buenos
-2. Ver lista de juguetes niños malos
-3. Guargar lista de todos los juguetes (.csv)
-4. Cerrar sesión
+1.Ver lista de juguetes niños buenos
+2.Ver lista de juguetes niños malos
+3.Guargar lista de todos los juguetes (.csv)
+4.Cerrar sesión
 Seleccione una opción: 3
 
 Lista de juguetes guardada.
 -----------
 Gestor de juguetes (Tipo de sesión: Santa)
-1. Ver lista de juguetes niños buenos
-2. Ver lista de juguetes niños malos
-3. Guargar lista de todos los juguetes (.csv)
-4. Cerrar sesión
+1.Ver lista de juguetes niños buenos
+2.Ver lista de juguetes niños malos
+3.Guargar lista de todos los juguetes (.csv)
+4.Cerrar sesión
 Seleccione una opción: 4
 
 Sesión cerrada correctamente.
