@@ -37,7 +37,7 @@ Por cada historia de usuario se deberán redactar los criterios de aceptación.
 
 # Ejemplo de interacción con la consola
 
-# Casos de uso para Elfos:
+Casos de uso para Elfos:
 Iniciar sesión de trabajo como:
 1. Elfo
 2. Santa Claus
@@ -107,7 +107,7 @@ Seleccione una opción: 4
 
 Sesión cerrada correctamente.
 
-# Casos de uso para Santa Claus:
+Casos de uso para Santa Claus:
 
 Iniciar sesión de trabajo como:
 1. Elfo
