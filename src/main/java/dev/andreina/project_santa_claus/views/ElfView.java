@@ -3,6 +3,8 @@ package dev.andreina.project_santa_claus.views;
 import java.util.Scanner;
 
 import dev.andreina.project_santa_claus.controllers.ToyController;
+import dev.andreina.project_santa_claus.dtos.GoodToyDto;
+import dev.andreina.project_santa_claus.models.GoodToy;
 
 
 
@@ -63,8 +65,11 @@ public class ElfView extends View {
             System.out.println("Ingrese la categoria:");
             String category= scanner.next();
 
-            toycontroller.postGoodToy(); //18 llamo al controlador para que guarde el juguete
-
+            //21 coloco los atributos : (new GoodToy(title, brand, age, category)):
+            // 22  Dto - Data Transfert Object, creo en mvc un record : GoodToyDto
+            toycontroller.postGoodToy(new GoodToyDto(title, brand, age, category));;//18 llamo al controlador para que guarde el juguete
+            //24 se transfiere los atributos del dto al codigo linea 70
+            
 
 
 
