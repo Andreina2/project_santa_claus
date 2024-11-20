@@ -1,5 +1,6 @@
 package dev.andreina.project_santa_claus.views;
 
+import java.util.Scanner;
 
 /*4 Las vistas las genera de manera estatica, se hacen de manera separada del sistema, para que el controllador no deende de estas vistas,
 y no tener que instanciar en el controller un new*/
@@ -15,6 +16,22 @@ public class HomeView extends View {
         System.out.println("Seleccione una opción:");
 
         int option= scanner.nextInt();
+
+        //8 
+
+        if (option==1) ElfView.index();
+        //10 llamo metodo quit
+        if (option==3) quit();
+
+        //else if ("Por favor ingrese un número correcto");
+
     }
+
+    //9 metodo para salir de elfo
+    public static void quit() {
+            
+        scanner.close();
+
+}
 
 }
