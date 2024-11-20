@@ -69,14 +69,14 @@ public class ElfView extends View {
             // 22  Dto - Data Transfert Object, creo en mvc un record : GoodToyDto
             toycontroller.postGoodToy(new GoodToyDto(title, brand, age, category));;//18 llamo al controlador para que guarde el juguete
             //24 se transfiere los atributos del dto al codigo linea 70
-            
-
-
-
 
         }
+        
+        //26
+        public static void addToyResponse() {
+            System.out.println("Juguete añadido con éxito");
+            index();
 
-
-
+        }
 
     }
