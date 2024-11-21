@@ -25,7 +25,7 @@ public class ElfView extends View {
         if (option== 4) closeSession(); //9 llamo el método closeSession()
 
         //11 opción 1 añadir juguete:
-        if (option== 1) selectChild();; // 12 llamo el método selectChild()
+        if (option== 1) selectChild(); // 12 llamo el método selectChild()
 
     }
 

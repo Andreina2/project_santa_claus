@@ -17,9 +17,11 @@ public class HomeView extends View {
 
         int option= scanner.nextInt();
 
-        //8 
+        //8
 
         if (option==1) ElfView.index();
+
+        if (option==2) SantaClausView.index(); // generé la clase vista santa
         //10 llamo metodo quit
         if (option==3) quit();
 
