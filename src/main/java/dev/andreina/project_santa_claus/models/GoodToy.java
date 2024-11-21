@@ -9,7 +9,7 @@ public class GoodToy extends Toy {
 
 
     //constructor
-    public GoodToy (String title, boolean isGoodToy,String brand, int age, String category) {
+    public GoodToy (String title,String brand, int age, String category, boolean isGoodToy) {
         super(title, isGoodToy); // Preguntar palabra super
         this.brand= brand;
         this.age= age;
