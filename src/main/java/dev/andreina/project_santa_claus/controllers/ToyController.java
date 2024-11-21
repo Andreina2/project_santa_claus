@@ -16,7 +16,7 @@ public class ToyController {
 
     //16 de la vista ElfView se hase la llamada a ToyController para guardar un juguete bueno creando este metodo:
 
-    public static void postGoodToy(GoodToyDto goodToyDto) {
+    public void postGoodToy(GoodToyDto goodToyDto) {
     //Hara algo con el repositorio
     //27 si todo va bien devolvera una respuesta
     ElfView.addToyResponse();

@@ -1,10 +1,8 @@
 package dev.andreina.project_santa_claus.views;
 
-import java.util.Scanner;
-
 import dev.andreina.project_santa_claus.controllers.ToyController;
 import dev.andreina.project_santa_claus.dtos.GoodToyDto;
-import dev.andreina.project_santa_claus.models.GoodToy;
+
 
 
 
@@ -31,16 +29,7 @@ public class ElfView extends View {
 
     }
 
-        //8 creo un metodo para cerrar sesión de elfo y que vaya a la vista principal HomeView:
         
-        //NOTA: Tomar en cuenta si el USUARIO COLOCA MAL EL NUMERO DE LAS OPCIONES
-
-        
-        public static void closeSession() {
-            
-            HomeView.index();
-        }
-
         //12 metodo para añadir juguete, pero primero se debe selleccionar niño:
         public static void selectChild() {
             
@@ -78,5 +67,16 @@ public class ElfView extends View {
             index();
 
         }
+
+        //8 creo un metodo para cerrar sesión de elfo y que vaya a la vista principal HomeView:
+        
+        //NOTA: Tomar en cuenta si el USUARIO COLOCA MAL EL NUMERO DE LAS OPCIONES
+
+        
+        public static void closeSession() {
+            
+            HomeView.index();
+        }
+
 
     }
