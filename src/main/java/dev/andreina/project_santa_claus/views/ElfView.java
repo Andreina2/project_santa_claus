@@ -2,6 +2,7 @@ package dev.andreina.project_santa_claus.views;
 
 import dev.andreina.project_santa_claus.controllers.ToyController;
 import dev.andreina.project_santa_claus.dtos.GoodToyDto;
+import dev.andreina.project_santa_claus.dtos.BadToyDTO;
 
 
 
@@ -40,6 +41,7 @@ public class ElfView extends View {
             int option= scanner.nextInt();
 
             if (option== 1) postGoodToy(); // 14 llamo el método postGoodToy(), luego creo mi clase ToyController en el modelo controllers
+            if (option== 2) postBadToy();
         }
 
         //13 crear el metodo de añadir juguete
@@ -60,6 +62,21 @@ public class ElfView extends View {
             //24 se transfiere los atributos del dto al codigo linea 70
 
         }
+
+            public static void postBadToy() {
+                System.out.println("-----------------------------------------");
+                System.out.println("Ingrese el título:");
+                scanner.nextLine();
+                String title = scanner.nextLine();
+                System.out.println("Ingrese el contenido:");
+                String content = scanner.nextLine();
+        
+                toycontroller.postBadToy(new BadToyDTO(title, content));
+            }
+
+            
+
+        
         
         //26
         public static void addToyResponse() {
