@@ -16,7 +16,14 @@ public class GoodToy extends Toy {
         this.category= category;
     }
 
-     //getters y setters
+    public GoodToy(String id, String title, boolean isGoodToy, String brand, int age, String category) {
+        super(id, title, isGoodToy);
+        this.brand = brand;
+        this.age = age;
+        this.category = category;
+    }
+
+    //getters y setters
     public String getBrand() {
         return brand;
     }

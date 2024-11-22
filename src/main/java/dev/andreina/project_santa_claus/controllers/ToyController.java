@@ -2,7 +2,10 @@ package dev.andreina.project_santa_claus.controllers;
 
 import dev.andreina.project_santa_claus.dtos.GoodToyDto;
 import dev.andreina.project_santa_claus.models.GoodToy;
-import dev.andreina.project_santa_claus.models.Toy;
+import dev.andreina.project_santa_claus.models.BadToy;
+import dev.andreina.project_santa_claus.db.BadToyDatabase;
+import dev.andreina.project_santa_claus.db.GoodToyDatabase;
+import dev.andreina.project_santa_claus.dtos.BadToyDTO;
 import dev.andreina.project_santa_claus.repository.ToyRepository;
 import dev.andreina.project_santa_claus.singletons.ToyRepositorySingleton;
 import dev.andreina.project_santa_claus.views.ElfView;
@@ -24,6 +27,15 @@ public class ToyController {
     //27 si todo va bien devolvera una respuesta
     GoodToy toy = new GoodToy(goodToyDto.title(), goodToyDto.brand(), goodToyDto.age(), goodToyDto.category(), true);
     toyrepository.saveGoodToy(toy);
+    ElfView.addToyResponse();
+}
+
+    public void postBadToy(BadToyDTO badToyDto) {
+    BadToy toy = new BadToy(badToyDto.title(), false, badToyDto.content());
+    //GoodToyDatabase goodToyDatabase= new GoodToyDatabase();
+    BadToyDatabase badToyDatabase= new BadToyDatabase();
+    ToyRepository repo= new ToyRepository();
+    repo.saveBadToy(toy);
     ElfView.addToyResponse();
     
 

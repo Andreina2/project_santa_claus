@@ -17,6 +17,13 @@ public class Toy {
 
     }
 
+    
+    public Toy(String id, String title, boolean isGoodToy) {
+        this.id = id;
+        this.title = title;
+        this.isGoodToy = isGoodToy;
+    }
+
     public String getId() {
         return id;
     }
@@ -36,6 +43,7 @@ public class Toy {
     public void setTitle(String title) {
         this.title = title;
     }
+
 
     
 

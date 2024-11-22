@@ -6,7 +6,7 @@ public class ToyRepositorySingleton {
 
     // Patrones Singleton
     /*1. Eager initialization : en el momento que arranque la aplicación se  va a crear el objeto, esto permite
-    que solo exista un objeto, se usa cuando hay muchas solicitudes y en vez de crear muchos objetos, 
+    que solo exista un objeto, se usa cuando hay muchas solicitudes y en vez de crear muchos objetos,
     creamos uno de manera global. En la clase se usa static final cuando es Eager */
 
     private static final ToyRepository INTANCE= new ToyRepository();
