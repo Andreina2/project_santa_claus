@@ -27,6 +27,7 @@ public class ElfView extends View {
 
         //11 opción 1 añadir juguete:
         if (option== 1) selectChild(); // 12 llamo el método selectChild()
+        if (option== 2) getToys();
 
     }
 
@@ -83,6 +84,10 @@ public class ElfView extends View {
             System.out.println("Juguete añadido con éxito");
             index();
 
+        }
+
+        public static void getToys() {
+            toycontroller.getGoodToys();
         }
 
         //8 creo un metodo para cerrar sesión de elfo y que vaya a la vista principal HomeView:
