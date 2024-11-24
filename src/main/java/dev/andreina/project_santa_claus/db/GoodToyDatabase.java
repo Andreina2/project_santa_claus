@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 import dev.andreina.project_santa_claus.models.GoodToy;
 
-public class GoodToyDatabase {
+public class GoodToyDatabase implements InterfaceDataBase<GoodToy> {
 
         private List<GoodToy> goodToys;
 
